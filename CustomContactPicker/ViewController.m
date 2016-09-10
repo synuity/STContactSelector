@@ -2,8 +2,8 @@
 //  ViewController.m
 //  CustomContactPicker
 //
-//  Created by anoopkumar on 13/07/16.
-//  Copyright © 2016 anoopkumar. All rights reserved.
+//  Created by synuity on 13/07/16.
+//  Copyright © 2016 synuity. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -18,9 +18,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"test log");
-    NSLog(@"test log");
-    NSLog(@"test log");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -76,10 +73,7 @@
         [messageController setRecipients:messageArray];
         [messageController setBody:message];
         [self presentViewController:messageController animated:YES completion:nil];
-    }else{
-        [self showAlert:@"You haven't selected any number please select a number first"];
     }
-    
 }
 - (void)messageComposeViewController:(MFMessageComposeViewController *)controller didFinishWithResult:(MessageComposeResult) result
 {

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		256B9AD586BFA92F0397F06D /* Pods_CustomContactPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF9FE49703536A3A1441E2D /* Pods_CustomContactPicker.framework */; };
 		3D26F2411D374A2700D2AA68 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D26F2401D374A2700D2AA68 /* ContactTableViewCell.m */; };
 		3D26F24D1D37722D00D2AA68 /* EPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D26F2471D37722D00D2AA68 /* EPConstants.swift */; };
 		3D26F24E1D37722D00D2AA68 /* EPContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D26F2481D37722D00D2AA68 /* EPContact.swift */; };
@@ -25,6 +24,7 @@
 		3D3B31301D3669DD009EFEC2 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3B312F1D3669DD009EFEC2 /* Contacts.framework */; };
 		3D3B31331D366A5F009EFEC2 /* ContactPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B31321D366A5F009EFEC2 /* ContactPicker.m */; };
 		3D3B313A1D36721E009EFEC2 /* ContactPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B31391D36721E009EFEC2 /* ContactPickerViewController.m */; };
+		EE397A4AF6D01392091238AA /* libPods-CustomContactPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F69FC3234B3C02C30337CC9 /* libPods-CustomContactPicker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,8 +54,8 @@
 		3D3B31381D36721E009EFEC2 /* ContactPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactPickerViewController.h; sourceTree = "<group>"; };
 		3D3B31391D36721E009EFEC2 /* ContactPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactPickerViewController.m; sourceTree = "<group>"; };
 		66DD4752D30D311B7287AD42 /* Pods-CustomContactPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomContactPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomContactPicker/Pods-CustomContactPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		6F69FC3234B3C02C30337CC9 /* libPods-CustomContactPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomContactPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E948034097A0EEEB37CE7D /* Pods-CustomContactPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomContactPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomContactPicker/Pods-CustomContactPicker.release.xcconfig"; sourceTree = "<group>"; };
-		9EF9FE49703536A3A1441E2D /* Pods_CustomContactPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomContactPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 			files = (
 				3D26F2541D378B5D00D2AA68 /* MessageUI.framework in Frameworks */,
 				3D3B31301D3669DD009EFEC2 /* Contacts.framework in Frameworks */,
-				256B9AD586BFA92F0397F06D /* Pods_CustomContactPicker.framework in Frameworks */,
+				EE397A4AF6D01392091238AA /* libPods-CustomContactPicker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 			children = (
 				3D26F2531D378B5D00D2AA68 /* MessageUI.framework */,
 				3D26F2421D3767F900D2AA68 /* EPContactsPicker.framework */,
-				9EF9FE49703536A3A1441E2D /* Pods_CustomContactPicker.framework */,
+				6F69FC3234B3C02C30337CC9 /* libPods-CustomContactPicker.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,12 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D3B312C1D3669C9009EFEC2 /* Build configuration list for PBXNativeTarget "CustomContactPicker" */;
 			buildPhases = (
-				B931C3A48E27AB22787065C7 /* Check Pods Manifest.lock */,
+				B931C3A48E27AB22787065C7 /* [CP] Check Pods Manifest.lock */,
 				3D3B31111D3669C9009EFEC2 /* Sources */,
 				3D3B31121D3669C9009EFEC2 /* Frameworks */,
 				3D3B31131D3669C9009EFEC2 /* Resources */,
-				FFDE8BEEFE0749F468A4C8F6 /* Embed Pods Frameworks */,
-				808F70ECAC812A9220E80D96 /* Copy Pods Resources */,
+				FFDE8BEEFE0749F468A4C8F6 /* [CP] Embed Pods Frameworks */,
+				808F70ECAC812A9220E80D96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,14 +232,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		808F70ECAC812A9220E80D96 /* Copy Pods Resources */ = {
+		808F70ECAC812A9220E80D96 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,14 +247,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomContactPicker/Pods-CustomContactPicker-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B931C3A48E27AB22787065C7 /* Check Pods Manifest.lock */ = {
+		B931C3A48E27AB22787065C7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,14 +262,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		FFDE8BEEFE0749F468A4C8F6 /* Embed Pods Frameworks */ = {
+		FFDE8BEEFE0749F468A4C8F6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,7 +412,7 @@
 				INFOPLIST_FILE = CustomContactPicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iShake;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Synuity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "101a274c-cf83-4f2d-ab33-ea46e2068e5b";
 			};
@@ -428,7 +428,7 @@
 				INFOPLIST_FILE = CustomContactPicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iShake;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Synuity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "101a274c-cf83-4f2d-ab33-ea46e2068e5b";
 			};

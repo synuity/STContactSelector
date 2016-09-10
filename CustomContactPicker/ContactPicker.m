@@ -2,8 +2,8 @@
 //  ContactPicker.m
 //  CustomContactPicker
 //
-//  Created by anoopkumar on 13/07/16.
-//  Copyright © 2016 anoopkumar. All rights reserved.
+//  Created by synuity on 13/07/16.
+//  Copyright © 2016 synuity. All rights reserved.
 //
 
 #import "ContactPicker.h"

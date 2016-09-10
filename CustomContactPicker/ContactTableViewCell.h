@@ -2,8 +2,8 @@
 //  ContactTableViewCell.h
 //  CustomContactPicker
 //
-//  Created by anoopkumar on 14/07/16.
-//  Copyright © 2016 anoopkumar. All rights reserved.
+//  Created by synuity on 14/07/16.
+//  Copyright © 2016 synuity. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

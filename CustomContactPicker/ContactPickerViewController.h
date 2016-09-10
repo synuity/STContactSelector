@@ -2,8 +2,8 @@
 //  ContactPickerViewController.h
 //  CustomContactPicker
 //
-//  Created by anoopkumar on 13/07/16.
-//  Copyright © 2016 anoopkumar. All rights reserved.
+//  Created by synuity on 13/07/16.
+//  Copyright © 2016 synuity. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -18,9 +18,7 @@
 - (void)ContactPickerCancelSelectingContacs;
 
 @end
-@interface ContactPickerViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UISearchBarDelegate,MFMessageComposeViewControllerDelegate>
-
-{
+@interface ContactPickerViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UISearchBarDelegate>{
     NSArray *myContactOriginalArray,*filteredArray;
     NSMutableArray *messageContactArray;
     
