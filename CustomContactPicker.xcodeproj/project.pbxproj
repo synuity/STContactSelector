@@ -8,12 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3D26F2411D374A2700D2AA68 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D26F2401D374A2700D2AA68 /* ContactTableViewCell.m */; };
-		3D26F24D1D37722D00D2AA68 /* EPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D26F2471D37722D00D2AA68 /* EPConstants.swift */; };
-		3D26F24E1D37722D00D2AA68 /* EPContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D26F2481D37722D00D2AA68 /* EPContact.swift */; };
-		3D26F24F1D37722D00D2AA68 /* EPContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D26F2491D37722D00D2AA68 /* EPContactCell.swift */; };
-		3D26F2501D37722D00D2AA68 /* EPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D26F24A1D37722D00D2AA68 /* EPContactCell.xib */; };
-		3D26F2511D37722D00D2AA68 /* EPContactsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D26F24B1D37722D00D2AA68 /* EPContactsPicker.swift */; };
-		3D26F2521D37722D00D2AA68 /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D26F24C1D37722D00D2AA68 /* EPExtensions.swift */; };
 		3D26F2541D378B5D00D2AA68 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D26F2531D378B5D00D2AA68 /* MessageUI.framework */; };
 		3D3B311A1D3669C9009EFEC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B31191D3669C9009EFEC2 /* main.m */; };
 		3D3B311D1D3669C9009EFEC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B311C1D3669C9009EFEC2 /* AppDelegate.m */; };
@@ -24,19 +18,11 @@
 		3D3B31301D3669DD009EFEC2 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3B312F1D3669DD009EFEC2 /* Contacts.framework */; };
 		3D3B31331D366A5F009EFEC2 /* ContactPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B31321D366A5F009EFEC2 /* ContactPicker.m */; };
 		3D3B313A1D36721E009EFEC2 /* ContactPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B31391D36721E009EFEC2 /* ContactPickerViewController.m */; };
-		EE397A4AF6D01392091238AA /* libPods-CustomContactPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F69FC3234B3C02C30337CC9 /* libPods-CustomContactPicker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D26F23F1D374A2700D2AA68 /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
 		3D26F2401D374A2700D2AA68 /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
-		3D26F2421D3767F900D2AA68 /* EPContactsPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EPContactsPicker.framework; path = "../../../../../Users/anoopkumar/Library/Developer/Xcode/DerivedData/CustomContactPicker-aiiqvefuufbwqnhlcanvklddjoba/Build/Products/Debug-iphonesimulator/EPContactsPicker.framework"; sourceTree = "<group>"; };
-		3D26F2471D37722D00D2AA68 /* EPConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPConstants.swift; sourceTree = "<group>"; };
-		3D26F2481D37722D00D2AA68 /* EPContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPContact.swift; sourceTree = "<group>"; };
-		3D26F2491D37722D00D2AA68 /* EPContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPContactCell.swift; sourceTree = "<group>"; };
-		3D26F24A1D37722D00D2AA68 /* EPContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EPContactCell.xib; sourceTree = "<group>"; };
-		3D26F24B1D37722D00D2AA68 /* EPContactsPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPContactsPicker.swift; sourceTree = "<group>"; };
-		3D26F24C1D37722D00D2AA68 /* EPExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPExtensions.swift; sourceTree = "<group>"; };
 		3D26F2531D378B5D00D2AA68 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		3D3B31151D3669C9009EFEC2 /* CustomContactPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomContactPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3B31191D3669C9009EFEC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,9 +39,6 @@
 		3D3B31321D366A5F009EFEC2 /* ContactPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactPicker.m; sourceTree = "<group>"; };
 		3D3B31381D36721E009EFEC2 /* ContactPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactPickerViewController.h; sourceTree = "<group>"; };
 		3D3B31391D36721E009EFEC2 /* ContactPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactPickerViewController.m; sourceTree = "<group>"; };
-		66DD4752D30D311B7287AD42 /* Pods-CustomContactPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomContactPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomContactPicker/Pods-CustomContactPicker.debug.xcconfig"; sourceTree = "<group>"; };
-		6F69FC3234B3C02C30337CC9 /* libPods-CustomContactPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomContactPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		85E948034097A0EEEB37CE7D /* Pods-CustomContactPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomContactPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomContactPicker/Pods-CustomContactPicker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +48,6 @@
 			files = (
 				3D26F2541D378B5D00D2AA68 /* MessageUI.framework in Frameworks */,
 				3D3B31301D3669DD009EFEC2 /* Contacts.framework in Frameworks */,
-				EE397A4AF6D01392091238AA /* libPods-CustomContactPicker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,23 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				3D26F2531D378B5D00D2AA68 /* MessageUI.framework */,
-				3D26F2421D3767F900D2AA68 /* EPContactsPicker.framework */,
-				6F69FC3234B3C02C30337CC9 /* libPods-CustomContactPicker.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3D26F2461D37722D00D2AA68 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3D26F2471D37722D00D2AA68 /* EPConstants.swift */,
-				3D26F2481D37722D00D2AA68 /* EPContact.swift */,
-				3D26F2491D37722D00D2AA68 /* EPContactCell.swift */,
-				3D26F24A1D37722D00D2AA68 /* EPContactCell.xib */,
-				3D26F24B1D37722D00D2AA68 /* EPContactsPicker.swift */,
-				3D26F24C1D37722D00D2AA68 /* EPExtensions.swift */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		3D3B310C1D3669C9009EFEC2 = {
@@ -101,7 +68,6 @@
 				3D3B312F1D3669DD009EFEC2 /* Contacts.framework */,
 				3D3B31171D3669C9009EFEC2 /* CustomContactPicker */,
 				3D3B31161D3669C9009EFEC2 /* Products */,
-				D59B80796B8269A16FF0D343 /* Pods */,
 				271ABD199BFFC27BFB8F7176 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -117,7 +83,6 @@
 		3D3B31171D3669C9009EFEC2 /* CustomContactPicker */ = {
 			isa = PBXGroup;
 			children = (
-				3D26F2461D37722D00D2AA68 /* Pods */,
 				3D3B311B1D3669C9009EFEC2 /* AppDelegate.h */,
 				3D3B311C1D3669C9009EFEC2 /* AppDelegate.m */,
 				3D3B311E1D3669C9009EFEC2 /* ViewController.h */,
@@ -153,15 +118,6 @@
 			name = ContactPicker;
 			sourceTree = "<group>";
 		};
-		D59B80796B8269A16FF0D343 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				66DD4752D30D311B7287AD42 /* Pods-CustomContactPicker.debug.xcconfig */,
-				85E948034097A0EEEB37CE7D /* Pods-CustomContactPicker.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,12 +125,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D3B312C1D3669C9009EFEC2 /* Build configuration list for PBXNativeTarget "CustomContactPicker" */;
 			buildPhases = (
-				B931C3A48E27AB22787065C7 /* [CP] Check Pods Manifest.lock */,
 				3D3B31111D3669C9009EFEC2 /* Sources */,
 				3D3B31121D3669C9009EFEC2 /* Frameworks */,
 				3D3B31131D3669C9009EFEC2 /* Resources */,
-				FFDE8BEEFE0749F468A4C8F6 /* [CP] Embed Pods Frameworks */,
-				808F70ECAC812A9220E80D96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +149,7 @@
 				TargetAttributes = {
 					3D3B31141D3669C9009EFEC2 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -225,59 +179,10 @@
 				3D3B31281D3669C9009EFEC2 /* LaunchScreen.storyboard in Resources */,
 				3D3B31251D3669C9009EFEC2 /* Assets.xcassets in Resources */,
 				3D3B31231D3669C9009EFEC2 /* Main.storyboard in Resources */,
-				3D26F2501D37722D00D2AA68 /* EPContactCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		808F70ECAC812A9220E80D96 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomContactPicker/Pods-CustomContactPicker-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B931C3A48E27AB22787065C7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FFDE8BEEFE0749F468A4C8F6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomContactPicker/Pods-CustomContactPicker-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D3B31111D3669C9009EFEC2 /* Sources */ = {
@@ -285,16 +190,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D3B31331D366A5F009EFEC2 /* ContactPicker.m in Sources */,
-				3D26F24D1D37722D00D2AA68 /* EPConstants.swift in Sources */,
 				3D3B31201D3669C9009EFEC2 /* ViewController.m in Sources */,
-				3D26F24E1D37722D00D2AA68 /* EPContact.swift in Sources */,
-				3D26F24F1D37722D00D2AA68 /* EPContactCell.swift in Sources */,
 				3D26F2411D374A2700D2AA68 /* ContactTableViewCell.m in Sources */,
-				3D26F2521D37722D00D2AA68 /* EPExtensions.swift in Sources */,
 				3D3B311D1D3669C9009EFEC2 /* AppDelegate.m in Sources */,
 				3D3B311A1D3669C9009EFEC2 /* main.m in Sources */,
 				3D3B313A1D36721E009EFEC2 /* ContactPickerViewController.m in Sources */,
-				3D26F2511D37722D00D2AA68 /* EPContactsPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +304,6 @@
 		};
 		3D3B312D1D3669C9009EFEC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66DD4752D30D311B7287AD42 /* Pods-CustomContactPicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Lee Baldry (V3SE6PKJ56)";
@@ -415,12 +314,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Synuity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "101a274c-cf83-4f2d-ab33-ea46e2068e5b";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3D3B312E1D3669C9009EFEC2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85E948034097A0EEEB37CE7D /* Pods-CustomContactPicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Lee Baldry (V3SE6PKJ56)";
@@ -431,6 +330,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Synuity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "101a274c-cf83-4f2d-ab33-ea46e2068e5b";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

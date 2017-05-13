@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "548995C058344D27E117183AEC08159D8D3E4FBA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "38D07BC4363B14768588AFBDBC7DBFBB9C0A1A23" : 9223372036854775807,
+    "548995C058344D27E117183AEC08159D8D3E4FBA" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E9C92B9B-7B85-461F-9932-8C41995D13B0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "38D07BC4363B14768588AFBDBC7DBFBB9C0A1A23" : "",
+    "548995C058344D27E117183AEC08159D8D3E4FBA" : "STContactSelector\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CustomContactPicker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CustomContactPicker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/synuity\/SideImageUnderLineTextField.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "38D07BC4363B14768588AFBDBC7DBFBB9C0A1A23"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/synuity\/STContactSelector.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "548995C058344D27E117183AEC08159D8D3E4FBA"
+    }
+  ]
+}
